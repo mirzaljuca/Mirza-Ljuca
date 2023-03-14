@@ -2,6 +2,7 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 
 /* Styles for the body */
 
@@ -14,7 +15,7 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #7DA270;
 }
 
 .resume-main {
@@ -22,7 +23,7 @@ body {
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #B2DDA6;
 }
 
 /* Styles for lists in the document */
@@ -48,4 +49,9 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.header-text {
+	color: white;
+	font-family: 'Merriweather', serif;
 }
